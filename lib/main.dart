@@ -1,7 +1,8 @@
 import 'package:flutter/material.dart';
 //import 'package:app_test/home.dart';
-import 'package:app_test/sign_up.dart';
+//import 'package:app_test/sign_up.dart';
 //import 'package:app_test/yes.dart';
+import 'package:app_test/log_in.dart';
 
 void      main()
 {
@@ -15,7 +16,7 @@ class AppOne extends StatelessWidget {
   Widget build(BuildContext context) {
     return MaterialApp(
       debugShowCheckedModeBanner: false,
-      home: SinUp()
+      home: LogIn()
     );
   }
 }
