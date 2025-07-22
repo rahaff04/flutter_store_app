@@ -3,7 +3,9 @@ import 'package:flutter/material.dart';
 //import 'package:app_test/sign_up.dart';
 //import 'package:app_test/yes.dart';
 //import 'package:app_test/log_in.dart';
-import 'package:app_test/verify1.dart';
+//import 'package:app_test/verify1.dart';
+import 'package:app_test/verify2.dart';
+
 
 
 void      main()
@@ -18,7 +20,7 @@ class AppOne extends StatelessWidget {
   Widget build(BuildContext context) {
     return MaterialApp(
       debugShowCheckedModeBanner: false,
-      home: VirifyOne()
+      home: VirifyTow()
     );
   }
 }
